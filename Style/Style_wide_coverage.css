@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+a {
+    margin-right: 32px;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    color: #17233D;
+}
+
+.header-button {
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    border-radius: 10px;
+    background: #6FBF44;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+img {
+    display: inline-block;
+    margin-top: 163px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.5961538553237915px;
+    text-align: left;
+    width: 582px;
+    color: #161A49;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 493px;
+
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.section-button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: left;
+
+    background: transparent;
+    color: #6FBF44;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:560px) {
+    a {
+        display: none;
+    }
+
+    img {
+        max-width: 312px;
+        position: absolute;
+        top: 350px;
+        left: 40px;
+    }
+
+    button {    
+        position: relative;
+        left: 240px;
+        bottom: 30px;
+        max-width: 91px;
+    }
+
+    h1 {
+        max-width: 278px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        text-align: center;
+        position: relative;
+        right: 30px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        max-width: 304px;
+        text-align: center;
+        position: relative;
+        right: 40px;
+    }
+
+    .section-button {
+        position: static;
+        margin-left: 55px;
+        font-size: 18px;
+        max-width: 112.8px;
+    }
+}
