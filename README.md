@@ -1,4 +1,4 @@
-<h1>We care</h1>
+<h1>Wide coverage</h1>
 
 <h2>Projeto realizado através dos aprendizados do Dev Club.</h2>
 
